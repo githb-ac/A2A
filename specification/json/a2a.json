@@ -178,6 +178,11 @@
                     "description": "An optional URL to an icon for the agent.",
                     "type": "string"
                 },
+                "id": {
+                    "description": "Unique identifier for an agent. Must be a valid UUID, if set.",
+                    "format": "uuid",
+                    "type": "string"
+                },
                 "name": {
                     "description": "A human-readable name for the agent.",
                     "examples": [
