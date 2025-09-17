@@ -179,7 +179,7 @@
                     "type": "string"
                 },
                 "id": {
-                    "description": "Unique identifier for an agent. Must be a valid UUID, if set.",
+                    "description": "A stable unique identifier (UUID) for an agent, consistent across all its versions, optional.",
                     "format": "uuid",
                     "type": "string"
                 },
